@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+h1 {
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.seccion {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.titulo-libro {
+  font-family: "Verdana", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.autor {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  font-style: italic;
+  color: #7f8c8d;
+}
+.seccion-texto {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #34495e;
+}

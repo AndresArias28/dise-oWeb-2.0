@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artículos de Tecnología</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #0099ff 3px solid;
+      }
+      header h1 {
+        margin: 0;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      nav {
+        background: #444;
+        color: #fff;
+        padding: 10px 0;
+      }
+      nav ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
+      nav li {
+        display: inline;
+        margin: 0 10px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      nav a:hover {
+        color: #0099ff;
+      }
+      main {
+        display: flex;
+        margin-top: 20px;
+      }
+      .articles-section {
+        flex: 3;
+        margin-right: 20px;
+      }
+      article {
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      article h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      article .meta {
+        font-size: 0.8em;
+        color: #777;
+        margin-bottom: 10px;
+      }
+      article img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+      }
+      .read-more {
+        display: inline-block;
+        background: #0099ff;
+        color: #fff;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .read-more:hover {
+        background: #0077cc;
+      }
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Artículos de Tecnología</h1>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="ejercicioK.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <main>
+        <section class="articles-section">
+          <article>
+            <h2>La revolución de la Inteligencia Artificial en la medicina</h2>
+            <div class="meta">
+              Publicado el 10 de agosto, 2024 por Dr. Ana Martínez
+            </div>
+            <img src="ia-medicina.jpg" alt="IA en medicina" />
+            <p>
+              La inteligencia artificial está transformando el campo de la
+              medicina a pasos agigantados. Desde el diagnóstico precoz de
+              enfermedades hasta la personalización de tratamientos, la IA está
+              mejorando la precisión y eficiencia en el cuidado de la salud...
+            </p>
+            <a href="#" class="read-more">Leer más</a>
+          </article>
+
+          <article>
+            <h2>El futuro de la computación cuántica</h2>
+            <div class="meta">
+              Publicado el 09 de agosto, 2024 por Ing. Carlos López
+            </div>
+            <img src="computacion-cuantica.jpg" alt="Computación cuántica" />
+            <p>
+              La computación cuántica promete revolucionar el mundo de la
+              tecnología tal como lo conocemos. Con la capacidad de realizar
+              cálculos complejos en fracciones de segundo, esta tecnología
+              podría resolver problemas que actualmente son imposibles para las
+              supercomputadoras convencionales...
+            </p>
+            <a href="#" class="read-more">Leer más</a>
+          </article>
+
+          <article>
+            <h2>5G: La nueva era de la conectividad</h2>
+            <div class="meta">
+              Publicado el 08 de agosto, 2024 por Ing. Laura Gómez
+            </div>
+            <img src="5g-tecnologia.jpg" alt="Tecnología 5G" />
+            <p>
+              La implementación global de la tecnología 5G está cambiando la
+              forma en que nos conectamos e interactuamos con el mundo digital.
+              Con velocidades de conexión ultrarrápidas y latencia mínima, el 5G
+              está abriendo nuevas posibilidades en áreas como la realidad
+              aumentada, los vehículos autónomos y el Internet de las cosas...
+            </p>
+            <a href="#" class="read-more">Leer más</a>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Noticias de Tecnología. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

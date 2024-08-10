@@ -1,0 +1,23 @@
+
+.product-details {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-image {
+  flex: 1;
+  min-width: 300px;
+}
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+.product-info {
+  flex: 2;
+  padding: 0 20px;
+}
+.product-description {
+  margin-top: 20px;
+}
