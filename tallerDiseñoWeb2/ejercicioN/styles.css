@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos para la página de inicio */
+.noticias-principales {
+    flex: 2;
+    margin-right: 1rem;
+}
+
+.grid-noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    
+}
+
+.grid-noticias article {
+    border: #333 solid 1px;
+    padding: 1rem;
+    border-radius: 5%;
+    
+}
+
+aside {
+    flex: 1;
+}
+
+/* Estilos para la página de detalles de noticias */
+.detalle-noticia article {
+    flex: 2;
+    margin-right: 1rem;
+    
+}
+
+.detalle-noticia aside {
+    flex: 1;
+}
+
+/* Estilos para la página de contacto */
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contacto label, .contacto input, .contacto textarea {
+    margin-bottom: 1rem;
+}
+
+.contacto button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .noticias-principales, .detalle-noticia article, aside {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
